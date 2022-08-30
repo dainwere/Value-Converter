@@ -204,7 +204,7 @@ get.addEventListener('click', () => {
     if ((usd.classList.contains('active')) && (ils1.classList.contains('active'))) {
         let in1 = inleft.value;
         let in2 = inright.value;
-        let result = in1 / shekele;
+        let result = in1 * shekele;
         console.log(result)
         inright.value = result
     }
@@ -214,7 +214,7 @@ get.addEventListener('click', () => {
     if ((eu.classList.contains('active')) && (ils1.classList.contains('active'))) {
         let in1 = inleft.value;
         let in2 = inright.value;
-        let result = in1 / (shekele * euro);
+        let result = in1 * (shekele / euro);
         console.log(result)
         inright.value = result
     }
