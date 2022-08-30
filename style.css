@@ -1,0 +1,176 @@
+* {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+    background-color: white;
+    border-radius: 75px;
+    margin-top: 25px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+}
+
+.block {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+}
+
+.value-block {
+    display: flex;
+    width: 100%;
+}
+
+.rub {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.usd {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.eu {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.ils {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.rub1 {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.usd1 {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.eu1 {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+.ils1{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease;
+}
+
+#inleft {
+    width: 300px;
+    height: 150px;
+    border: none;
+    font-size: 42px;
+    font-weight: 700;
+    outline: none;
+}
+
+#inright {
+    width: 300px;
+    height: 150px;
+    border: none;
+    font-size: 42px;
+    font-weight: 700;
+    outline: none;
+}
+
+.convert-block {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.img {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.2s ease;
+    border-radius: 50%;
+}
+
+.img:hover {
+    background-color: blanchedalmond;
+}
+
+/* Values */
+
+.active {
+    background-color: rgb(68, 143, 68);
+    color: #fff;
+}
